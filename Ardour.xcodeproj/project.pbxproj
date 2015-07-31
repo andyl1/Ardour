@@ -9,12 +9,41 @@
 /* Begin PBXBuildFile section */
 		1814A0FC1B232D3F00F4DEEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814A0FB1B232D3F00F4DEEF /* main.m */; };
 		1814A0FF1B232D3F00F4DEEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814A0FE1B232D3F00F4DEEF /* AppDelegate.m */; };
-		1814A1021B232D3F00F4DEEF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814A1011B232D3F00F4DEEF /* FirstViewController.m */; };
-		1814A1051B232D3F00F4DEEF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814A1041B232D3F00F4DEEF /* SecondViewController.m */; };
 		1814A1081B232D3F00F4DEEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1814A1061B232D3F00F4DEEF /* Main.storyboard */; };
 		1814A10A1B232D3F00F4DEEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1814A1091B232D3F00F4DEEF /* Images.xcassets */; };
 		1814A10D1B232D3F00F4DEEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1814A10B1B232D3F00F4DEEF /* LaunchScreen.xib */; };
 		1814A1191B232D3F00F4DEEF /* ArdourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814A1181B232D3F00F4DEEF /* ArdourTests.m */; };
+		1814A1241B232DFF00F4DEEF /* ALLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814A1231B232DFF00F4DEEF /* ALLoginViewController.m */; };
+		1814A1291B248F5C00F4DEEF /* ALConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814A1281B248F5C00F4DEEF /* ALConstants.m */; };
+		1814A12D1B25EA2200F4DEEF /* ALHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814A12C1B25EA2200F4DEEF /* ALHomeViewController.m */; };
+		1814A1311B25F9EF00F4DEEF /* ALSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814A1301B25F9EF00F4DEEF /* ALSettingsViewController.m */; };
+		1814A1351B2609E700F4DEEF /* ALEditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814A1341B2609E700F4DEEF /* ALEditProfileViewController.m */; };
+		1814A1391B260C6D00F4DEEF /* ALProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814A1381B260C6D00F4DEEF /* ALProfileViewController.m */; };
+		1814A13D1B2743CD00F4DEEF /* ALTestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814A13C1B2743CD00F4DEEF /* ALTestUser.m */; };
+		1814A13F1B27445100F4DEEF /* astronaut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1814A13E1B27445100F4DEEF /* astronaut.jpg */; };
+		1814A1431B28663900F4DEEF /* ALMatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814A1421B28663900F4DEEF /* ALMatchViewController.m */; };
+		1814A1471B286E6700F4DEEF /* ALMatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814A1461B286E6700F4DEEF /* ALMatchesViewController.m */; };
+		1814A14B1B28767000F4DEEF /* ALChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814A14A1B28767000F4DEEF /* ALChatViewController.m */; };
+		1814A14D1B2A3B1E00F4DEEF /* defaultPrefsFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1814A14C1B2A3B1E00F4DEEF /* defaultPrefsFile.plist */; };
+		1814A1511B2B473500F4DEEF /* Facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814A1501B2B473500F4DEEF /* Facebook.png */; };
+		1814A1531B2B473C00F4DEEF /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814A1521B2B473C00F4DEEF /* Logo.png */; };
+		1814A1551B2B67DB00F4DEEF /* DislikeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814A1541B2B67DB00F4DEEF /* DislikeIcon.png */; };
+		1814A1571B2B67E200F4DEEF /* LikeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814A1561B2B67E200F4DEEF /* LikeIcon.png */; };
+		1814A1591B2B67E900F4DEEF /* User_Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814A1581B2B67E900F4DEEF /* User_Image.png */; };
+		1814A15B1B2B67F000F4DEEF /* InfoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814A15A1B2B67F000F4DEEF /* InfoIcon.png */; };
+		1814A15D1B2B6A5B00F4DEEF /* ChatIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814A15C1B2B6A5B00F4DEEF /* ChatIcon.png */; };
+		1814A15F1B2B6A6400F4DEEF /* SettingIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814A15E1B2B6A6400F4DEEF /* SettingIcon.png */; };
+		1814A1621B2B9AD700F4DEEF /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814A1611B2B9AD700F4DEEF /* location.png */; };
+		1814A1641B2B9ADF00F4DEEF /* AgeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814A1631B2B9ADF00F4DEEF /* AgeIcon.png */; };
+		1814A1661B2B9AE600F4DEEF /* StatusIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814A1651B2B9AE600F4DEEF /* StatusIcon.png */; };
+		1814A16A1B2C204700F4DEEF /* ALTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814A1691B2C204700F4DEEF /* ALTransitionAnimator.m */; };
+		1814A16C1B2C2ACF00F4DEEF /* ChatNow_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814A16B1B2C2ACE00F4DEEF /* ChatNow_Icon.png */; };
+		1814A16E1B2C2AD700F4DEEF /* Close-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814A16D1B2C2AD700F4DEEF /* Close-Button.png */; };
+		1814A1701B2C2B3100F4DEEF /* UserImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814A16F1B2C2B3000F4DEEF /* UserImage.png */; };
+		1869997A1B35F58800BA4205 /* EditProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 186999791B35F58800BA4205 /* EditProfile.png */; };
+		1869997C1B35F59100BA4205 /* Logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 1869997B1B35F59100BA4205 /* Logout.png */; };
+		1869997E1B35F5A700BA4205 /* Chat_user.png in Resources */ = {isa = PBXBuildFile; fileRef = 1869997D1B35F5A700BA4205 /* Chat_user.png */; };
+		71A17C8BC207971A6FF7B7A2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A6EE3DF21ED07CC207F201 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +62,59 @@
 		1814A0FB1B232D3F00F4DEEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1814A0FD1B232D3F00F4DEEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1814A0FE1B232D3F00F4DEEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1814A1001B232D3F00F4DEEF /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		1814A1011B232D3F00F4DEEF /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		1814A1031B232D3F00F4DEEF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		1814A1041B232D3F00F4DEEF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		1814A1071B232D3F00F4DEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1814A1091B232D3F00F4DEEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1814A10C1B232D3F00F4DEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1814A1121B232D3F00F4DEEF /* ArdourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArdourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1814A1171B232D3F00F4DEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1814A1181B232D3F00F4DEEF /* ArdourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArdourTests.m; sourceTree = "<group>"; };
+		1814A1221B232DFF00F4DEEF /* ALLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALLoginViewController.h; sourceTree = "<group>"; };
+		1814A1231B232DFF00F4DEEF /* ALLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALLoginViewController.m; sourceTree = "<group>"; };
+		1814A1271B248F5C00F4DEEF /* ALConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALConstants.h; sourceTree = "<group>"; };
+		1814A1281B248F5C00F4DEEF /* ALConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALConstants.m; sourceTree = "<group>"; };
+		1814A12B1B25EA2200F4DEEF /* ALHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALHomeViewController.h; sourceTree = "<group>"; };
+		1814A12C1B25EA2200F4DEEF /* ALHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALHomeViewController.m; sourceTree = "<group>"; };
+		1814A12F1B25F9EF00F4DEEF /* ALSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSettingsViewController.h; sourceTree = "<group>"; };
+		1814A1301B25F9EF00F4DEEF /* ALSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALSettingsViewController.m; sourceTree = "<group>"; };
+		1814A1331B2609E700F4DEEF /* ALEditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALEditProfileViewController.h; sourceTree = "<group>"; };
+		1814A1341B2609E700F4DEEF /* ALEditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALEditProfileViewController.m; sourceTree = "<group>"; };
+		1814A1371B260C6D00F4DEEF /* ALProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALProfileViewController.h; sourceTree = "<group>"; };
+		1814A1381B260C6D00F4DEEF /* ALProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALProfileViewController.m; sourceTree = "<group>"; };
+		1814A13B1B2743CD00F4DEEF /* ALTestUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTestUser.h; sourceTree = "<group>"; };
+		1814A13C1B2743CD00F4DEEF /* ALTestUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTestUser.m; sourceTree = "<group>"; };
+		1814A13E1B27445100F4DEEF /* astronaut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = astronaut.jpg; sourceTree = "<group>"; };
+		1814A1411B28663900F4DEEF /* ALMatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMatchViewController.h; sourceTree = "<group>"; };
+		1814A1421B28663900F4DEEF /* ALMatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMatchViewController.m; sourceTree = "<group>"; };
+		1814A1451B286E6700F4DEEF /* ALMatchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMatchesViewController.h; sourceTree = "<group>"; };
+		1814A1461B286E6700F4DEEF /* ALMatchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMatchesViewController.m; sourceTree = "<group>"; };
+		1814A1491B28767000F4DEEF /* ALChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALChatViewController.h; sourceTree = "<group>"; };
+		1814A14A1B28767000F4DEEF /* ALChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALChatViewController.m; sourceTree = "<group>"; };
+		1814A14C1B2A3B1E00F4DEEF /* defaultPrefsFile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = defaultPrefsFile.plist; sourceTree = "<group>"; };
+		1814A14E1B2B3BE900F4DEEF /* Matched_Up_assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Matched_Up_assets; sourceTree = "<group>"; };
+		1814A1501B2B473500F4DEEF /* Facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Facebook.png; path = Ardour/Matched_Up_assets/01_LoginScreen/Facebook.png; sourceTree = "<group>"; };
+		1814A1521B2B473C00F4DEEF /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo.png; path = Ardour/Matched_Up_assets/01_LoginScreen/Logo.png; sourceTree = "<group>"; };
+		1814A1541B2B67DB00F4DEEF /* DislikeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DislikeIcon.png; path = Ardour/Matched_Up_assets/02_HomeScreen/DislikeIcon.png; sourceTree = "<group>"; };
+		1814A1561B2B67E200F4DEEF /* LikeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LikeIcon.png; path = Ardour/Matched_Up_assets/02_HomeScreen/LikeIcon.png; sourceTree = "<group>"; };
+		1814A1581B2B67E900F4DEEF /* User_Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = User_Image.png; path = Ardour/Matched_Up_assets/02_HomeScreen/User_Image.png; sourceTree = "<group>"; };
+		1814A15A1B2B67F000F4DEEF /* InfoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = InfoIcon.png; path = Ardour/Matched_Up_assets/02_HomeScreen/InfoIcon.png; sourceTree = "<group>"; };
+		1814A15C1B2B6A5B00F4DEEF /* ChatIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ChatIcon.png; path = Ardour/Matched_Up_assets/02_HomeScreen/ChatIcon.png; sourceTree = "<group>"; };
+		1814A15E1B2B6A6400F4DEEF /* SettingIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SettingIcon.png; path = Ardour/Matched_Up_assets/02_HomeScreen/SettingIcon.png; sourceTree = "<group>"; };
+		1814A1601B2B6A9100F4DEEF /* User_Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = User_Image.png; path = Ardour/Matched_Up_assets/02_HomeScreen/User_Image.png; sourceTree = "<group>"; };
+		1814A1611B2B9AD700F4DEEF /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location.png; path = Ardour/Matched_Up_assets/03_Profile/location.png; sourceTree = "<group>"; };
+		1814A1631B2B9ADF00F4DEEF /* AgeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AgeIcon.png; path = Ardour/Matched_Up_assets/03_Profile/AgeIcon.png; sourceTree = "<group>"; };
+		1814A1651B2B9AE600F4DEEF /* StatusIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StatusIcon.png; path = Ardour/Matched_Up_assets/03_Profile/StatusIcon.png; sourceTree = "<group>"; };
+		1814A1681B2C204700F4DEEF /* ALTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTransitionAnimator.h; sourceTree = "<group>"; };
+		1814A1691B2C204700F4DEEF /* ALTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTransitionAnimator.m; sourceTree = "<group>"; };
+		1814A16B1B2C2ACE00F4DEEF /* ChatNow_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ChatNow_Icon.png; path = Ardour/Matched_Up_assets/08_Match/ChatNow_Icon.png; sourceTree = "<group>"; };
+		1814A16D1B2C2AD700F4DEEF /* Close-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Close-Button.png"; path = "Ardour/Matched_Up_assets/08_Match/Close-Button.png"; sourceTree = "<group>"; };
+		1814A16F1B2C2B3000F4DEEF /* UserImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UserImage.png; path = Ardour/Matched_Up_assets/07_Profile_Edit/UserImage.png; sourceTree = "<group>"; };
+		1814A1721B2C329700F4DEEF /* Ardour-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Ardour-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		186999791B35F58800BA4205 /* EditProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EditProfile.png; path = Ardour/Matched_Up_assets/06_Settings/EditProfile.png; sourceTree = "<group>"; };
+		1869997B1B35F59100BA4205 /* Logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logout.png; path = Ardour/Matched_Up_assets/06_Settings/Logout.png; sourceTree = "<group>"; };
+		1869997D1B35F5A700BA4205 /* Chat_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chat_user.png; path = Ardour/Matched_Up_assets/04_ChatList/Chat_user.png; sourceTree = "<group>"; };
+		471C2011CBBFE8E901527968 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F0FBC43B8ECB2ABD9CE14C1D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F5A6EE3DF21ED07CC207F201 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A17C8BC207971A6FF7B7A2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,9 +139,29 @@
 		1814A0ED1B232D3F00F4DEEF = {
 			isa = PBXGroup;
 			children = (
+				1869997D1B35F5A700BA4205 /* Chat_user.png */,
+				1869997B1B35F59100BA4205 /* Logout.png */,
+				186999791B35F58800BA4205 /* EditProfile.png */,
+				1814A16F1B2C2B3000F4DEEF /* UserImage.png */,
+				1814A16D1B2C2AD700F4DEEF /* Close-Button.png */,
+				1814A16B1B2C2ACE00F4DEEF /* ChatNow_Icon.png */,
+				1814A1651B2B9AE600F4DEEF /* StatusIcon.png */,
+				1814A1631B2B9ADF00F4DEEF /* AgeIcon.png */,
+				1814A1611B2B9AD700F4DEEF /* location.png */,
+				1814A1601B2B6A9100F4DEEF /* User_Image.png */,
+				1814A15E1B2B6A6400F4DEEF /* SettingIcon.png */,
+				1814A15C1B2B6A5B00F4DEEF /* ChatIcon.png */,
+				1814A15A1B2B67F000F4DEEF /* InfoIcon.png */,
+				1814A1581B2B67E900F4DEEF /* User_Image.png */,
+				1814A1561B2B67E200F4DEEF /* LikeIcon.png */,
+				1814A1541B2B67DB00F4DEEF /* DislikeIcon.png */,
+				1814A1521B2B473C00F4DEEF /* Logo.png */,
+				1814A1501B2B473500F4DEEF /* Facebook.png */,
 				1814A0F81B232D3F00F4DEEF /* Ardour */,
 				1814A1151B232D3F00F4DEEF /* ArdourTests */,
 				1814A0F71B232D3F00F4DEEF /* Products */,
+				2FB92CC4E65AE2C4F80A4D71 /* Pods */,
+				B1B4449CECE39696799F29D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,13 +179,19 @@
 			children = (
 				1814A0FD1B232D3F00F4DEEF /* AppDelegate.h */,
 				1814A0FE1B232D3F00F4DEEF /* AppDelegate.m */,
-				1814A1001B232D3F00F4DEEF /* FirstViewController.h */,
-				1814A1011B232D3F00F4DEEF /* FirstViewController.m */,
-				1814A1031B232D3F00F4DEEF /* SecondViewController.h */,
-				1814A1041B232D3F00F4DEEF /* SecondViewController.m */,
 				1814A1061B232D3F00F4DEEF /* Main.storyboard */,
+				1814A1251B232E2200F4DEEF /* Login */,
+				1814A12A1B25E9B400F4DEEF /* Home */,
+				1814A12E1B25F9C800F4DEEF /* Settings */,
+				1814A1321B2609AD00F4DEEF /* Edit Profile */,
+				1814A1361B260C4F00F4DEEF /* Profile */,
+				1814A1401B28660D00F4DEEF /* Match! */,
+				1814A1441B286E4000F4DEEF /* Matches */,
+				1814A1481B286EB600F4DEEF /* Chat */,
+				1814A13A1B27439400F4DEEF /* Create Parse User */,
 				1814A1091B232D3F00F4DEEF /* Images.xcassets */,
 				1814A10B1B232D3F00F4DEEF /* LaunchScreen.xib */,
+				1814A1721B2C329700F4DEEF /* Ardour-Prefix.pch */,
 				1814A0F91B232D3F00F4DEEF /* Supporting Files */,
 			);
 			path = Ardour;
@@ -101,6 +200,10 @@
 		1814A0F91B232D3F00F4DEEF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1814A14E1B2B3BE900F4DEEF /* Matched_Up_assets */,
+				1814A1271B248F5C00F4DEEF /* ALConstants.h */,
+				1814A1281B248F5C00F4DEEF /* ALConstants.m */,
+				1814A13E1B27445100F4DEEF /* astronaut.jpg */,
 				1814A0FA1B232D3F00F4DEEF /* Info.plist */,
 				1814A0FB1B232D3F00F4DEEF /* main.m */,
 			);
@@ -124,6 +227,123 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1814A1251B232E2200F4DEEF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1814A1221B232DFF00F4DEEF /* ALLoginViewController.h */,
+				1814A1231B232DFF00F4DEEF /* ALLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		1814A12A1B25E9B400F4DEEF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1814A12B1B25EA2200F4DEEF /* ALHomeViewController.h */,
+				1814A12C1B25EA2200F4DEEF /* ALHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		1814A12E1B25F9C800F4DEEF /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1814A12F1B25F9EF00F4DEEF /* ALSettingsViewController.h */,
+				1814A1301B25F9EF00F4DEEF /* ALSettingsViewController.m */,
+				1814A1711B2C2CFC00F4DEEF /* Supporting Files */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		1814A1321B2609AD00F4DEEF /* Edit Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1814A1331B2609E700F4DEEF /* ALEditProfileViewController.h */,
+				1814A1341B2609E700F4DEEF /* ALEditProfileViewController.m */,
+			);
+			name = "Edit Profile";
+			sourceTree = "<group>";
+		};
+		1814A1361B260C4F00F4DEEF /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1814A1371B260C6D00F4DEEF /* ALProfileViewController.h */,
+				1814A1381B260C6D00F4DEEF /* ALProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		1814A13A1B27439400F4DEEF /* Create Parse User */ = {
+			isa = PBXGroup;
+			children = (
+				1814A13B1B2743CD00F4DEEF /* ALTestUser.h */,
+				1814A13C1B2743CD00F4DEEF /* ALTestUser.m */,
+			);
+			name = "Create Parse User";
+			sourceTree = "<group>";
+		};
+		1814A1401B28660D00F4DEEF /* Match! */ = {
+			isa = PBXGroup;
+			children = (
+				1814A1411B28663900F4DEEF /* ALMatchViewController.h */,
+				1814A1421B28663900F4DEEF /* ALMatchViewController.m */,
+				1814A1671B2C200F00F4DEEF /* Transition Helper */,
+			);
+			name = "Match!";
+			sourceTree = "<group>";
+		};
+		1814A1441B286E4000F4DEEF /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				1814A1451B286E6700F4DEEF /* ALMatchesViewController.h */,
+				1814A1461B286E6700F4DEEF /* ALMatchesViewController.m */,
+			);
+			name = Matches;
+			sourceTree = "<group>";
+		};
+		1814A1481B286EB600F4DEEF /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				1814A1491B28767000F4DEEF /* ALChatViewController.h */,
+				1814A14A1B28767000F4DEEF /* ALChatViewController.m */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		1814A1671B2C200F00F4DEEF /* Transition Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1814A1681B2C204700F4DEEF /* ALTransitionAnimator.h */,
+				1814A1691B2C204700F4DEEF /* ALTransitionAnimator.m */,
+			);
+			name = "Transition Helper";
+			sourceTree = "<group>";
+		};
+		1814A1711B2C2CFC00F4DEEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1814A14C1B2A3B1E00F4DEEF /* defaultPrefsFile.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FB92CC4E65AE2C4F80A4D71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				471C2011CBBFE8E901527968 /* Pods.debug.xcconfig */,
+				F0FBC43B8ECB2ABD9CE14C1D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1B4449CECE39696799F29D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5A6EE3DF21ED07CC207F201 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +351,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1814A11C1B232D3F00F4DEEF /* Build configuration list for PBXNativeTarget "Ardour" */;
 			buildPhases = (
+				2C6E989E085F61DC2E70B0C2 /* Check Pods Manifest.lock */,
 				1814A0F21B232D3F00F4DEEF /* Sources */,
 				1814A0F31B232D3F00F4DEEF /* Frameworks */,
 				1814A0F41B232D3F00F4DEEF /* Resources */,
+				A472E75D7E55A9B4B2319D74 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,6 +395,7 @@
 				TargetAttributes = {
 					1814A0F51B232D3F00F4DEEF = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = EU8Z97B5WG;
 					};
 					1814A1111B232D3F00F4DEEF = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -205,8 +428,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				1814A1081B232D3F00F4DEEF /* Main.storyboard in Resources */,
+				1814A13F1B27445100F4DEEF /* astronaut.jpg in Resources */,
 				1814A10D1B232D3F00F4DEEF /* LaunchScreen.xib in Resources */,
 				1814A10A1B232D3F00F4DEEF /* Images.xcassets in Resources */,
+				1814A14D1B2A3B1E00F4DEEF /* defaultPrefsFile.plist in Resources */,
+				1814A1641B2B9ADF00F4DEEF /* AgeIcon.png in Resources */,
+				1869997E1B35F5A700BA4205 /* Chat_user.png in Resources */,
+				1814A1511B2B473500F4DEEF /* Facebook.png in Resources */,
+				1814A1531B2B473C00F4DEEF /* Logo.png in Resources */,
+				1814A15D1B2B6A5B00F4DEEF /* ChatIcon.png in Resources */,
+				1814A16C1B2C2ACF00F4DEEF /* ChatNow_Icon.png in Resources */,
+				1814A16E1B2C2AD700F4DEEF /* Close-Button.png in Resources */,
+				1814A1551B2B67DB00F4DEEF /* DislikeIcon.png in Resources */,
+				1869997A1B35F58800BA4205 /* EditProfile.png in Resources */,
+				1814A15B1B2B67F000F4DEEF /* InfoIcon.png in Resources */,
+				1814A1571B2B67E200F4DEEF /* LikeIcon.png in Resources */,
+				1814A1621B2B9AD700F4DEEF /* location.png in Resources */,
+				1869997C1B35F59100BA4205 /* Logout.png in Resources */,
+				1814A15F1B2B6A6400F4DEEF /* SettingIcon.png in Resources */,
+				1814A1661B2B9AE600F4DEEF /* StatusIcon.png in Resources */,
+				1814A1701B2C2B3100F4DEEF /* UserImage.png in Resources */,
+				1814A1591B2B67E900F4DEEF /* User_Image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,14 +461,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C6E989E085F61DC2E70B0C2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A472E75D7E55A9B4B2319D74 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1814A0F21B232D3F00F4DEEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1814A1051B232D3F00F4DEEF /* SecondViewController.m in Sources */,
+				1814A13D1B2743CD00F4DEEF /* ALTestUser.m in Sources */,
+				1814A1291B248F5C00F4DEEF /* ALConstants.m in Sources */,
+				1814A1391B260C6D00F4DEEF /* ALProfileViewController.m in Sources */,
+				1814A1351B2609E700F4DEEF /* ALEditProfileViewController.m in Sources */,
 				1814A0FF1B232D3F00F4DEEF /* AppDelegate.m in Sources */,
-				1814A1021B232D3F00F4DEEF /* FirstViewController.m in Sources */,
+				1814A12D1B25EA2200F4DEEF /* ALHomeViewController.m in Sources */,
+				1814A1241B232DFF00F4DEEF /* ALLoginViewController.m in Sources */,
+				1814A1431B28663900F4DEEF /* ALMatchViewController.m in Sources */,
+				1814A1471B286E6700F4DEEF /* ALMatchesViewController.m in Sources */,
+				1814A14B1B28767000F4DEEF /* ALChatViewController.m in Sources */,
+				1814A16A1B2C204700F4DEEF /* ALTransitionAnimator.m in Sources */,
+				1814A1311B25F9EF00F4DEEF /* ALSettingsViewController.m in Sources */,
 				1814A0FC1B232D3F00F4DEEF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,21 +635,31 @@
 		};
 		1814A11D1B232D3F00F4DEEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 471C2011CBBFE8E901527968 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Ardour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		1814A11E1B232D3F00F4DEEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0FBC43B8ECB2ABD9CE14C1D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Ardour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -422,6 +716,7 @@
 				1814A11E1B232D3F00F4DEEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1814A11F1B232D3F00F4DEEF /* Build configuration list for PBXNativeTarget "ArdourTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +725,7 @@
 				1814A1211B232D3F00F4DEEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

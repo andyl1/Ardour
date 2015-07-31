@@ -1,0 +1,10 @@
+platform :ios, '8.3'
+
+pod 'Parse' 
+pod 'ParseFacebookUtils'
+pod 'Facebook-iOS-SDK'
+pod 'FBSDKCoreKit'
+pod 'FBSDKLoginKit'
+pod 'JSMessagesViewController','3.4.3'
+pod 'JSQSystemSoundPlayer','1.3.1'
+pod 'Mixpanel'
